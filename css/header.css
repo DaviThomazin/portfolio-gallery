@@ -31,6 +31,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   align-items: center;
 }
 
@@ -52,3 +54,17 @@
   background-color: var(--white-color50);
   color: #585858;
 }
+
+@media (max-width: 840px) {
+  .logo a {
+    font-size: 24px;
+  }
+
+  .nav-list a {
+    font-size: 16px;
+  }
+
+  .botao-header {
+    font-size: 16px;
+  }
+} ;

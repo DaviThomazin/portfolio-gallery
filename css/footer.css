@@ -38,6 +38,9 @@
 }
 
 .direitos {
+  display: block;
+  padding-top: 60px;
   color: var(--gray-footer60);
   padding-bottom: 5px;
+  text-align: center;
 }
