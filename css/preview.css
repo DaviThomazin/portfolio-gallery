@@ -23,6 +23,11 @@
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+  transition: 0.2s;
+}
+
+.items-redes:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .redes h2 {

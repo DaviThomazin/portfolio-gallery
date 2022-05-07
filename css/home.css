@@ -29,6 +29,12 @@
   background-color: var(--black-color25);
   border-radius: 40px;
   color: var(--black-saiba-mais);
+  transition: 0.2s;
+}
+
+.botao-home:hover {
+  background-color: var(--black-font-var70);
+  color: var(--gray-button);
 }
 
 .item2 p {
@@ -51,4 +57,12 @@
   border-radius: 40px;
   width: 220px;
   height: 66px;
+}
+
+.ferramentas-home img {
+  transition: 0.3s;
+}
+
+.ferramentas-home img:hover {
+  transform: translateY(-5px);
 }

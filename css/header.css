@@ -13,6 +13,11 @@
 .nav-list a {
   color: var(--grey-color2);
   font-size: 18px;
+  transition: 0.2s;
+}
+
+.nav-list a:hover {
+  color: var(--white-color25);
 }
 
 .js-list::after {
@@ -35,9 +40,15 @@
   background-color: var(--white-color25);
   border-radius: 40px;
   color: #ffffff;
+  transition: 0.2s ease-in-out;
 }
 
 .botao-header::after {
   content: url(/img/icons/seta-js-direita.svg);
   margin-left: 10px;
+}
+
+.botao-header:hover {
+  background-color: var(--white-color50);
+  color: #585858;
 }

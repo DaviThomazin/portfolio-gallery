@@ -25,6 +25,11 @@
   background-color: var(--grey-color1);
   border-radius: 5px;
   box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.item-container:hover {
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.4);
 }
 
 .item-container img {
@@ -48,6 +53,12 @@
   color: var(--black-font-var80);
   border-radius: 40px;
   align-self: center;
+  transition: 0.2s;
+}
+
+.botao-detalhes:hover {
+  background-color: var(--gray-subtitle80);
+  color: #ffffff;
 }
 
 .botao-ver {
@@ -59,4 +70,10 @@
   font-size: 18px;
   text-align: center;
   justify-self: center;
+  transition: 0.2s;
+}
+
+.botao-ver:hover {
+  background-color: #d4d4d4;
+  color: var(--black-color);
 }

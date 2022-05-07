@@ -27,6 +27,11 @@
   padding-bottom: 15px;
 }
 
+.footer-items a:hover {
+  color: var(--gray-footer80);
+  text-decoration: underline;
+}
+
 .footer-redes {
   display: flex;
   gap: 20px;
