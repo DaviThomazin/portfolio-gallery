@@ -1,0 +1,43 @@
+.logo a {
+  font-size: 28px;
+  color: var(--grey-color2);
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-left: 100px;
+}
+
+.nav-list a {
+  color: var(--grey-color2);
+  font-size: 18px;
+}
+
+.js-list::after {
+  content: url(/img/icons/seta-js.svg);
+  margin-left: 10px;
+  align-self: center;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+  align-items: center;
+}
+
+.botao-header {
+  font-size: 18px;
+  padding: 8px 12px;
+  background-color: var(--white-color25);
+  border-radius: 40px;
+  color: #ffffff;
+}
+
+.botao-header::after {
+  content: url(/img/icons/seta-js-direita.svg);
+  margin-left: 10px;
+}

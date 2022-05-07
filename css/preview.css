@@ -1,0 +1,44 @@
+.redes-bg {
+  background-color: var(--gray-color1);
+}
+
+.redes h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--black-font-var80);
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.items-redes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+}
+
+.items-redes {
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.redes h2 {
+  text-align: center;
+  color: var(--gray-subtitle80);
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 60px;
+}
+
+.email a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: var(--gray-subtitle80);
+  padding-top: 20px;
+  padding-bottom: 60px;
+}

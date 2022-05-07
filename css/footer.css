@@ -1,0 +1,38 @@
+.footer-bg {
+  background-image: linear-gradient(to bottom right, #ffffff, #dfdfdf);
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  gap: 90px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-items {
+  padding-top: 60px;
+}
+
+.footer-items h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--gray-footer80);
+  padding-bottom: 15px;
+}
+
+.footer-items a {
+  display: block;
+  color: var(--gray-footer60);
+  padding-bottom: 15px;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 20px;
+}
+
+.direitos {
+  color: var(--gray-footer60);
+  padding-bottom: 5px;
+}

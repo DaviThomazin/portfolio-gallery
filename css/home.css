@@ -1,0 +1,54 @@
+.home {
+  padding-top: 160px;
+  padding-bottom: 240px;
+  text-align: center;
+}
+
+.item1 h1 {
+  color: var(--black-font-var80);
+  font-size: 42px;
+  font-weight: 400;
+}
+.item1 span {
+  padding-top: 5px;
+  color: var(--black-font-var70);
+  font-size: 32px;
+}
+
+.item1 p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  max-width: 55ch;
+  color: var(--black-font-var90);
+  font-size: 18px;
+}
+
+.botao-home {
+  padding: 8px 32px;
+  background-color: var(--black-color25);
+  border-radius: 40px;
+  color: var(--black-saiba-mais);
+}
+
+.item2 p {
+  max-width: 50ch;
+  font-size: 18px;
+  color: var(--black-font-var90);
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.ferramentas-home {
+  display: flex;
+  margin: 0 auto;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--black-color25);
+  border-radius: 40px;
+  width: 220px;
+  height: 66px;
+}

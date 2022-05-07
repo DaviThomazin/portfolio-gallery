@@ -1,0 +1,62 @@
+.projetos-bg {
+  padding-bottom: 80px;
+}
+
+.projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 82px;
+}
+
+.projetos h1 {
+  grid-column: span 2;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  font-weight: 400;
+  font-size: 42px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 48px 0 48px;
+  background-color: var(--grey-color1);
+  border-radius: 5px;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.item-container img {
+  border-radius: 5px;
+}
+
+.item-container span {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 28px;
+  justify-self: center;
+}
+
+.botao-detalhes {
+  font-size: 18px;
+  padding: 6px 12px 6px 12px;
+  margin-top: 21px;
+  margin-bottom: 22px;
+  background-color: var(--gray-button);
+  color: var(--black-font-var80);
+  border-radius: 40px;
+  align-self: center;
+}
+
+.botao-ver {
+  grid-column: span 2;
+  padding: 8px 40px 8px 40px;
+  background-color: var(--black-color);
+  color: #ffffff;
+  border-radius: 40px;
+  font-size: 18px;
+  text-align: center;
+  justify-self: center;
+}
